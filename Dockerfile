@@ -7,7 +7,7 @@ ARG JAR_LIB_FILE=cible/lib/
 WORKDIR / usr / local / runme
 
  ##copier
-  target / find-links.jar /usr/local/runme/app.jar
+  target /find-links.jar/usr/local/runme/app.jar
 ##COPIER
 
 $ {JAR_FILE} app.jar
