@@ -10,7 +10,7 @@ public class TestUnit {
     @Test
     public void testSumResAttenduEgal5(){
         int sum=cal.sum(5, 0);
-        Assert.assertTrue(sum==5);
+        Assert.assertFalse(sum!=5);
     }
 
     @Test
