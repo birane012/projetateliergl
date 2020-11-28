@@ -17,16 +17,10 @@ public class Calculator {
         return a*b;
     }
     public int min(int a, int b) {
-        if(a<=b)
-            return a;
-        else
-            return b;
+            return Math.min(a,b);
     }
     public int max(int a, int b) {
-        if(a>=b)
-            return a;
-        else
-            return b;
+            return Math.max(a,b);
     }
 
     public int minElement(int[] list) {
